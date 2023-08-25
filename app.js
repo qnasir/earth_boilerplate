@@ -35,10 +35,11 @@ frame.src= "https://www.theworldcounts.com/embed/challenges/107?background_color
 savetext.innerHTML="Do your bit! Shop only what you need,eat only what you need and always save the leftovers"
 
 //buttons
-consumptionVar.style.background="green"
+consumptionVar.style.background="green" 
+peopleVar.style.background="transparent"
+climateVar.style.background="transparent"
+resourcesVar.style.background="transparent"
 }
-
-consumptionVar.c
 
 climateVar.onclick=()=>{
     //background
@@ -53,7 +54,9 @@ savetext.innerHTML="Do your bit! Save trees, use renewable energy sources and pr
 
 //buttons
 climateVar.style.background="blue"
-
+resourcesVar.style.background="transparent"
+consumptionVar.style.background="transparent"
+peopleVar.style.background="transparent"
 }
 
 resourcesVar.onclick=()=>{
@@ -69,6 +72,9 @@ savetext.innerHTML="Do your bit! Avoid all things plastic. Believe in Reduce, Re
 
 //buttons
 resourcesVar.style.background="orange"
+climateVar.style.background="transparent"
+consumptionVar.style.background="transparent"
+peopleVar.style.background="transparent"
 }
 
 peopleVar.onclick=()=>{
@@ -84,4 +90,7 @@ savetext.innerHTML="Do your bit! Never waste  food.Rather offer it to people or 
 
 //buttons
 peopleVar.style.background="brown"
+climateVar.style.background="transparent"
+resourcesVar.style.background="transparent"
+consumptionVar.style.background="transparent"
 }
